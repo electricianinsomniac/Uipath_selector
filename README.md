@@ -13,10 +13,10 @@ Use Casesensitive:"attribute-name" and false that
 In order to enable identification of attributes by casing, the case-sensitive() attribute needs to be included in the selector, in the tag of the target attribute
 
 such as:
-- casesensitive:<attribute name>='true' 
+- casesensitive:attribute name='true' 
 
 *this mean = Enables you to validate a selector by also including an attribute's value casing. By default, the value of this option is set to true.
 
-- casesensitive:<attribute name>='false' 
+- casesensitive:attribute name='false' 
 
 *this mean = If set to false, the casing of the attribute's value is not taken into it. it can ignore lowercase or uppercase
